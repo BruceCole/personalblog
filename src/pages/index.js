@@ -117,6 +117,7 @@ const IndexPage = () => (
     ))}
   </Layout>
 )
+export default IndexPage;
 
 /**
  * Head export to define metadata for the page
