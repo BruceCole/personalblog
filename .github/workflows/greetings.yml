@@ -1,4 +1,4 @@
-_KEYname: Greetings
+name: Greetings
 
 on: [pull_request_target, issues]
 
@@ -11,6 +11,6 @@ jobs:
     steps:
     - uses: actions/first-interaction@v1
       with:
-        repo-token: ${{ secrets.YOUR_SECRED_KEY }}
+        repo-token: ${{ secrets.YOUR_SECRET_KEY }}
         issue-message: "Thanks for reporting an issue"
         pr-message: "Let's give it a go, or a tug, or a pull"
